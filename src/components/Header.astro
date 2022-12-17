@@ -1,4 +1,5 @@
 ---
+import "../style/style.css"
 ---
 
 <!-- <nav
@@ -36,9 +37,14 @@
   </div>
 </nav> -->
 
-<nav class="header_kat navbar navbar-expand-lg ">
-    <div class="container-fluid justify-content-between">
-      <button
+
+
+
+<nav
+  class="navbar header navbar-expand-lg navbar-light position-sticky sticky-top"
+>
+  <div class="container-fluid justify-content-end">
+    <button
         class="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -49,17 +55,22 @@
       >
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div
-        class="collapse navbar-collapse justify-content-end"
-        id="navbarNavAltMarkup"
-      >
-        <div class="navbar-nav fs-3 pe-">
-          <a class="nav-link" aria-current="page" href="/">Home</a>
-          <a class="nav-link px-lg-5 px-0" href="">Services</a>
-
-          <a class="nav-link" href="">Collections</a>
-          <a class="nav-link px-lg-5 px-0" href="">Contact</a>
-        </div>
-      </div>
+    <div class="collapse navbar-collapse justify-content-center" >
+      <ul class="nav justify-content-center fs-3 head-item">
+        <li class="nav-item mx-5 ">
+          <a class="nav-link nav_link " aria-current="page" href="">Home</a>
+        </li>
+        <li class="nav-item mx-5 ">
+          <a class="nav-link nav_link" href="">Services</a>
+        </li>
+        <li class="nav-item mx-5 ">
+          <a class="nav-link nav_link" href="">Collections</a>
+        </li>
+        <li class="nav-item mx-5 ">
+          <a class="nav-link nav_link " href="">Contact</a>
+        </li>
+      </ul>
     </div>
-  </nav>
+  </div>
+</nav> 
+

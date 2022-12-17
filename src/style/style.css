@@ -12,3 +12,34 @@ i{
   font-size: 1.5rem !important;
 }
 
+.navbar {
+  background-color: #261340;
+}
+.nav_link {
+  color: #f2f2f2 !important;
+}
+.head-item a:hover {
+  color: rgba(248, 209, 12, 0.886) !important;
+  transition: 0.3s ease-in-out all;
+}
+.navbar-toggler {
+  background-color: #f2f2f2;
+}
+.story {
+  background-image: url(/image/stroy-bg.jpg);
+  background-size: cover;
+  height: 90vh;
+}
+.story-img {
+  background-color: #361d5933;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+}
+.story-content {
+  width: 60%;
+  height: inherit;
+  z-index: 2;
+  color: #f2f2f2;
+}
