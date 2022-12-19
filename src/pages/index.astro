@@ -24,15 +24,30 @@ import Layout from "../layouts/Layout.astro";
 
   <Design />
 
-  <div>
+  <div class="container">
     <h1 class="text-center mb-5">Collections</h1>
-    <Collection title="Rings" img_url="/public/image/Rings.jpg"  />
-    <Collection title="Engage Rings" img_url="/public/image/Engage Rings.jpg"  />
-    <Collection title="Necklace" img_url="/public/image/necklace.jpg"  />
-    <Collection title="Earrings" img_url="/public/image/Earrings.jpg"  />
-    <Collection title="Bracelets" img_url="/public/image/Bracelet.jpg"  />
-    <Collection title="Lockets" img_url="/public/image/Locket.jpg"  />
+    <div class="row d-flex">
+      <div class="col-12 col-md-6 col-lg-4">
+        <Collection title="Rings" img_url="/public/image/Rings.jpg" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <Collection
+          title="Engage Rings"
+          img_url="/public/image/Engage Rings.jpg"
+        />
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <Collection title="Necklace" img_url="/public/image/necklace.jpg" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <Collection title="Earrings" img_url="/public/image/Earrings.jpg" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <Collection title="Bracelets" img_url="/public/image/Bracelet.jpg" />
+      </div>
+      <div class="col-12 col-md-6 col-lg-4">
+        <Collection title="Lockets" img_url="/public/image/Locket.jpg" />
+      </div>
+    </div>
   </div>
-
-
 </Layout>
