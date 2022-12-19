@@ -5,20 +5,22 @@
   scroll-behavior: smooth;
   font-family: Poppins;
 }
-.address p{
+.address p {
   font-size: 1rem !important;
 }
-i{
+i {
   font-size: 1.5rem !important;
 }
 
 .navbar {
   background-color: #261340;
 }
-.nav_link {
-  color: #f2f2f2 !important;
+
+.nav-item {
+  margin: 0 3.125rem;
 }
-.head-item a:hover {
+
+.nav-item a:hover {
   color: rgba(248, 209, 12, 0.886) !important;
   transition: 0.3s ease-in-out all;
 }
@@ -28,7 +30,8 @@ i{
 .story {
   background-image: url(/image/stroy-bg.jpg);
   background-size: cover;
-  height: 90vh;
+  height: 100vh;
+  z-index: 0;
 }
 .story-img {
   background-color: #361d5933;
@@ -38,8 +41,47 @@ i{
   top: 0;
 }
 .story-content {
+  height: 100%;
   width: 60%;
-  height: inherit;
+  padding-bottom: 3.7rem;
   z-index: 2;
   color: #f2f2f2;
+}
+
+.story-content h1 {
+  margin-bottom: 5rem;
+}
+
+.story-content p {
+  text-align: justify;
+}
+
+.Design_layout {
+  display: grid;
+  grid-template-columns: 100px 100px;
+  grid-template-rows: 100px 100px;
+}
+
+@media (max-width: 770px) {
+  .story-content {
+    width: 100% !important;
+    padding-bottom: 5.5rem;
+  }
+
+  .story-content h1 {
+    margin-bottom: 3.5rem;
+  }
+  
+}
+
+@media (max-width : 430px){
+  .story-content {
+    padding-bottom: 3.5rem;
+}
+}
+
+@media (max-width: 330px){
+  .story-content {
+    padding-bottom: 1rem;
+}
 }
