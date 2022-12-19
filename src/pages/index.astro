@@ -1,4 +1,5 @@
 ---
+import Collection from "../components/Collection.astro";
 import Design from "../components/Design.astro";
 import Header from "../components/Header.astro";
 import Layout from "../layouts/Layout.astro";
@@ -21,7 +22,14 @@ import Layout from "../layouts/Layout.astro";
     </div>
   </section>
 
-  <Design/>
-
-  
+  <Design />
+  <div>
+    <h1 class="text-center mb-5">Collections</h1>
+    <Collection title="Rings" img_url="/public/image/Rings.jpg"  />
+    <Collection title="Engage Rings" img_url="/public/image/Engage Rings.jpg"  />
+    <Collection title="Necklace" img_url="/public/image/necklace.jpg"  />
+    <Collection title="Earrings" img_url="/public/image/Earrings.jpg"  />
+    <Collection title="Bracelets" img_url="/public/image/Bracelet.jpg"  />
+    <Collection title="Lockets" img_url="/public/image/Locket.jpg"  />
+  </div>
 </Layout>
