@@ -6,7 +6,7 @@
   font-family: Poppins;
 }
 
-body{
+body {
   background: none;
 }
 .address p {
@@ -60,7 +60,7 @@ i {
   text-align: justify;
 }
 
-.mt-7{
+.mt-7 {
   margin-top: 5rem;
 }
 
@@ -107,7 +107,7 @@ i {
   z-index: -1;
 }
 
-.Design-content{
+.Design-content {
   margin: 3rem 0;
 }
 
@@ -116,8 +116,13 @@ i {
   color: #261340;
 }
 
-.collections{
-  margin-top: 10rem;
+.collections {
+  margin-top: 9rem;
+}
+
+.footer-link {
+  color: #361d59;
+  text-decoration: none;
 }
 
 @media (max-width: 770px) {
@@ -129,17 +134,16 @@ i {
   .story-content h1 {
     margin-bottom: 3.5rem;
   }
-  
 }
 
-@media (max-width : 430px){
+@media (max-width: 430px) {
   .story-content {
     padding-bottom: 3.5rem;
-}
+  }
 }
 
-@media (max-width: 330px){
+@media (max-width: 330px) {
   .story-content {
     padding-bottom: 1rem;
-}
+  }
 }
