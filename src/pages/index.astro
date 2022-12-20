@@ -1,53 +1,18 @@
 ---
-import Collection from "../components/Collection.astro";
+import Collections from "../components/Collections.astro";
 import Design from "../components/Design.astro";
 import Header from "../components/Header.astro";
+import OurStory from "../components/Our_Story.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
 <Layout title="Home">
   <Header />
 
-  <section class="story position-relative">
-    <div class="story-content container d-flex flex-column justify-content-end">
-      <h1 class="text-center">Our Story</h1>
-      <div class="d-flex justify-content-center">
-        <p class="fs-4 lh-lg">
-          Lörem ipsum prepoliga Sofie Björklund polytropi tetrede trende.
-          Fakusade öfenönade: messa och epikyktig halvtaktsjobb, adade.
-        </p>
-      </div>
-    </div>
-
-    <div class="story-img position-absolute"></div>
-  </section>
+  <OurStory/>
 
   <Design />
 
-  <div class="container">
-    <h1 class="text-center mb-5">Collections</h1>
-    <div class="row d-flex">
-      <div class="col-12 col-md-6 col-lg-4">
-        <Collection title="Rings" img_url="/public/image/Rings.jpg" />
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <Collection
-          title="Engage Rings"
-          img_url="/public/image/Engage Rings.jpg"
-        />
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <Collection title="Necklace" img_url="/public/image/necklace.jpg" />
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <Collection title="Earrings" img_url="/public/image/Earrings.jpg" />
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <Collection title="Bracelets" img_url="/public/image/Bracelet.jpg" />
-      </div>
-      <div class="col-12 col-md-6 col-lg-4">
-        <Collection title="Lockets" img_url="/public/image/Locket.jpg" />
-      </div>
-    </div>
-  </div>
+  <Collections/>
+
 </Layout>
