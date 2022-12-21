@@ -129,6 +129,9 @@ i {
   border-bottom: 3px solid rgba(248, 209, 12, 0.886);
   color: #000;
 }
+.images img{
+  height: 17rem;
+}
 
 .footer-link {
   color: #361d59;
