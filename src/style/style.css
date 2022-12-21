@@ -124,6 +124,77 @@ i {
   color: #361d59;
   text-decoration: none;
 }
+.image{
+  width: 7rem;
+}
+.happy-customer{
+  background-color: #361d5933;
+  height: 90vh;
+}
+.customer-1{
+  top: 8rem;
+  left: 7%;
+}
+.customer-2{
+  top: 7rem;
+  right: 34%;
+}
+.customer-3{
+  top: 2rem;
+  left: 25%;
+}
+.customer-4{
+  top: 5rem;
+  right: 11%;
+}
+.line-1{
+  top: 7rem;
+  left: 29%;
+  z-index: -1;
+}
+.customer-5{
+  bottom: 7rem;
+  left: 7%;
+}
+.customer-6{
+  bottom: 2.5rem;
+  left: 54%;
+}
+.customer-7{
+  bottom: 11rem;
+  right: 7%;
+}
+.customer-8{
+  bottom: 4rem;
+  left: 24%;
+}
+.line-2{
+  bottom: 8rem;
+  right: 16%;
+  z-index: -1;
+}
+@media (max-width:769px) {
+  .happy-customer{
+      height: 100vh;
+  }
+  .image{
+      width: 6rem;
+  }
+  .line-1{
+      top: 8rem;
+      left: 28%;
+  }
+  .line-1 img{
+      width: 61%;
+  }
+  .line-2{
+      bottom: 12rem;
+      right: 12%;
+  }
+  .line-2 img{
+      width: 15rem;
+  }
+}
 
 @media (max-width: 770px) {
   .story-content {
