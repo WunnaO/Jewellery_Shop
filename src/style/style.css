@@ -120,6 +120,16 @@ i {
   margin-top: 9rem;
 }
 
+.Collection_iteam_link {
+  text-decoration-line: none;
+  border-bottom: 2px solid #000;
+  transition: 0.3s ease-in-out all;
+}
+.Collection_iteam_link:hover {
+  border-bottom: 3px solid rgba(248, 209, 12, 0.886);
+  color: #000;
+}
+
 .footer-link {
   color: #361d59;
   text-decoration: none;
@@ -205,6 +215,14 @@ i {
   .story-content h1 {
     margin-bottom: 3.5rem;
   }
+
+  .collections {
+    margin-top: 0;
+}
+
+.Design-content {
+  margin: 7rem 0 4rem 0;
+}
 }
 
 @media (max-width: 430px) {
