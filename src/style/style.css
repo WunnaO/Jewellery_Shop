@@ -129,7 +129,7 @@ i {
   border-bottom: 3px solid rgba(248, 209, 12, 0.886);
   color: #000;
 }
-.images img{
+.images img {
   height: 17rem;
 }
 
@@ -137,78 +137,66 @@ i {
   color: #361d59;
   text-decoration: none;
 }
-.image{
+/* Our happy Customer */
+
+.image {
   width: 7rem;
 }
-.happy-customer{
+.happy-customer {
   background-color: #361d5933;
   height: 90vh;
 }
-.customer-1{
+.customer-1 {
   top: 8rem;
   left: 7%;
 }
-.customer-2{
+.customer-2 {
   top: 7rem;
   right: 34%;
 }
-.customer-3{
+.customer-3 {
   top: 2rem;
   left: 25%;
 }
-.customer-4{
+.customer-4 {
   top: 5rem;
   right: 11%;
 }
-.line-1{
+.line-1 {
   top: 7rem;
   left: 29%;
   z-index: -1;
 }
-.customer-5{
+.customer-5 {
   bottom: 7rem;
   left: 7%;
 }
-.customer-6{
+.customer-6 {
   bottom: 2.5rem;
   left: 54%;
 }
-.customer-7{
+.customer-7 {
   bottom: 11rem;
   right: 7%;
 }
-.customer-8{
+.customer-8 {
   bottom: 4rem;
   left: 24%;
 }
-.line-2{
+.line-2 {
   bottom: 8rem;
   right: 16%;
   z-index: -1;
 }
-@media (max-width:769px) {
-  .happy-customer{
-      height: 100vh;
+@media (max-width:1024px) {
+  .customer-8 {
+    left: 28%;
   }
-  .image{
-      width: 6rem;
-  }
-  .line-1{
-      top: 8rem;
-      left: 28%;
-  }
-  .line-1 img{
-      width: 61%;
-  }
-  .line-2{
-      bottom: 12rem;
-      right: 12%;
-  }
-  .line-2 img{
-      width: 15rem;
+  .customer-6 {
+    bottom: 1.5rem;
+    left: 49%;
   }
 }
-
 @media (max-width: 770px) {
   .story-content {
     width: 100% !important;
@@ -221,21 +209,129 @@ i {
 
   .collections {
     margin-top: 0;
-}
+  }
 
-.Design-content {
-  margin: 7rem 0 4rem 0;
-}
+  .Design-content {
+    margin: 7rem 0 4rem 0;
+  }
+  .happy-customer {
+    height: 100vh;
+  }
+  .image {
+    width: 6rem;
+  }
+  .customer-6{
+    bottom: 7rem;
+  }
+  .customer-8 {
+    left: 30%;
+  }
+  .line-1 {
+    top: 8rem;
+    left: 28%;
+  }
+  .line-1 img {
+    width: 61%;
+  }
+  .line-2 {
+    bottom: 12rem;
+    right: 12%;
+  }
+  .line-2 img {
+    width: 15rem;
+  }
 }
 
 @media (max-width: 430px) {
   .story-content {
     padding-bottom: 3.5rem;
   }
+  .customer-1{
+    top: 11rem;
+    left: 4%;
+  }
+  .customer-2{
+    top: 9rem;
+    right: 40%;
+  }
+  .customer-3{
+    top: 1rem;
+    left: 21%;
+  }
+  .customer-4{
+    top: 8rem;
+    right: 5%;
+  }
+  .customer-5{
+    bottom: 6rem;
+    left: 3%;
+  }
+  .customer-6{
+    bottom: 4rem;
+    left: 48%;
+  }
+  .customer-7{
+    bottom: 10rem;
+    right: 4%;
+  }
+  .customer-8{
+    left: 30%;
+    bottom: 12rem;
+  }
+  .line-1 {
+    top: 6rem;
+    left: 39%;
+  }
+  .line-2{
+    bottom: 11rem;
+    right: 20%;
+  }
+}
+@media (max-width:380px) {
+  .image {
+    width: 5.5rem;
+  }
+  .customer-5 {
+    bottom: 5.5rem;
+    left: 2%;
+  }
+  .customer-8{
+    left: 24%;
+  }
 }
 
 @media (max-width: 330px) {
   .story-content {
     padding-bottom: 1rem;
+  }
+  .image {
+    width: 5rem;
+  }
+  .customer-2{
+    top: 8rem;
+  }
+  .customer-3 {
+    top: 2rem;
+    left: 17%;
+  }
+  .customer-5{
+    bottom: 7.5rem;
+    left: 2%;
+  }
+  .customer-6 {
+    bottom: 5rem;
+    left: 43%;
+  }
+  .customer-7{
+    bottom: 11rem;
+    right: 4%;
+  }
+  .customer-8{
+    left: 29%;
+    bottom: 13rem;
+  }
+  .line-2{
+    bottom: 12rem;
+    right: 8%;
   }
 }
