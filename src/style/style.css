@@ -199,6 +199,10 @@ i {
 .collection-contact:hover {
   color: #f2f2f2;
 }
+.contact-mail a,
+.contact-phone a {
+  color: #f2f2f2;
+}
 @media (max-width:1024px) {
   .customer-8 {
     left: 28%;
