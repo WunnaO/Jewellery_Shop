@@ -1,0 +1,33 @@
+---
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
+import Image from "../components/Image.astro";
+import Layout from "../layouts/Layout.astro";
+
+
+---
+<Layout title="Locket">
+    <Header/>
+    <section>
+        <h1 class="text-center mt-5 mb-5">Lockets</h1>
+        <div class="container mb-5">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <Image img_url="/public/image/locket-1.jpg"/>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <Image img_url="/public/image/locket-2.jpg"/>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <Image img_url="/public/image/locket-3.jpg"/>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <Image img_url="/public/image/locket-4.jpg"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <Contact/>
+    <Footer/>
+</Layout>

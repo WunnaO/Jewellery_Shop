@@ -1,6 +1,8 @@
 ---
-import Engage from "../components/Engage.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
+import Image from "../components/Image.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -11,24 +13,26 @@ import Layout from "../layouts/Layout.astro";
       <h1 class="text-center mt-5 mb-4">Engage Rings</h1>
       <div class="row">
         <div class="col-13 col-md-6 col-lg-3">
-          <Engage img_url="/public/image/engage 1.png" />
+          <Image img_url="/public/image/engage 1.png" />
         </div>
         <div class="col-13 col-md-6 col-lg-3">
-          <Engage img_url="/public/image/engage 2.png" />
+          <Image img_url="/public/image/engage 2.png" />
         </div>
         <div class="col-13 col-md-6 col-lg-3">
-          <Engage img_url="/public/image/engage 3.png" />
+          <Image img_url="/public/image/engage 3.png" />
         </div>
         <div class="col-13 col-md-6 col-lg-3">
-          <Engage img_url="/public/image/engage 4.png" />
+          <Image img_url="/public/image/engage 4.png" />
         </div>
         <div class="col-13 col-md-6 col-lg-3 mt-3 mb-3">
-          <Engage img_url="/public/image/engage 5.png" />
+          <Image img_url="/public/image/engage 5.png" />
         </div>
         <div class="col-13 col-md-6 col-lg-3 mt-3 mb-3">
-          <Engage img_url="/public/image/engage 6.png" />
+          <Image img_url="/public/image/engage 6.png" />
         </div>
       </div>
     </div>
   </section>
+  <Contact/>
+  <Footer/>
 </Layout>
