@@ -192,6 +192,9 @@ i {
   background-color: #261340;
   color: #f2f2f2;
 }
+.contact-container{
+  flex-wrap: wrap;
+}
 .collection-contact {
   color: #f2f2f2;
   text-decoration-line: none;
