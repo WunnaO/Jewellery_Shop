@@ -1,0 +1,30 @@
+---
+import Map from "../components/Map.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Contact">
+  <Map />
+  <section>
+    <h1 class="text-center">Send Message</h1>
+    <form action="">
+      <div>
+        <label for="name">Name</label>
+        <input type="text" placeholder="Mg Mg"/>
+      </div>
+      <div>
+        <label for="email">Email</label>
+        <input type="text" placeholder="Email"/>
+      </div>
+      <div>
+        <label for="phone">Phone</label>
+        <input type="number" placeholder="09*******"/>
+      </div>
+      <div>
+        <label for="message">Message</label>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+      </div>
+      <button class="p-2">Send</button>
+    </form>
+  </section>
+</Layout>
