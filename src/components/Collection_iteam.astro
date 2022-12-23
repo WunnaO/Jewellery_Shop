@@ -1,8 +1,10 @@
 ---
-const { title, img_url } = Astro.props;
+const { title, img_url, href } = Astro.props;
 ---
 
-<img src={img_url} alt="rings" class="w-100 image" />
-<p class="fs-3 mt-2">
-  <a href="" class="text-black Collection_iteam_link">{title}</a>
-</p>
+<div>
+  <img src={img_url} alt="rings" class="w-100 image" />
+  <p class="fs-3 mt-2">
+    <a href={href} class="text-black Collection_iteam_link">{title}</a>
+  </p>
+</div>
