@@ -1,21 +1,27 @@
 ---
 import Layout from "../layouts/Layout.astro";
+import "../style/style.css";
 ---
 
 <Layout title="Services">
   <section>
-    <div class="container-fluid">
-        <div class="row mb-3">
-          <div class="col-4 pt-1 p-0 m-0">
-            <div class="image_Layer1"></div>
-          </div>
-          <div class="col-4 p-0 m-0">
-            <div class="image_Layer2"></div>
-          </div>
-          <div class="col-4 pt-1 p-0 m-0">
-            <div class="image_Layer3"></div>
-          </div>
+    <div class="container">
+      <div class="row mb-3 ">
+        <div class="col-4 pt-1 p-0 m-0">
+          <div class="service-img-layer1"></div>
         </div>
+        <div class="col-4 p-0 m-0">
+          <div class="service-img-layer2"></div>
+        </div>
+        <div class="col-4 pt-1 p-0 m-0">
+          <div class="service-img-layer3"></div>
+        </div>
+        <div class="d-flex justify-content-center text-center services-text">
+          <p>
+            Jewellery Shop မှ ကောင်းမွန်သော ဝန်ဆောင်မှုများ
+          </p>
+        </div>
+      </div>
     </div>
   </section>
 </Layout>

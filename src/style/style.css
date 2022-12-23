@@ -188,11 +188,11 @@ i {
   right: 16%;
   z-index: -1;
 }
-.contact {
+.Footer {
   background-color: #261340;
   color: #f2f2f2;
 }
-.contact-container{
+.contact-container {
   flex-wrap: wrap;
 }
 .collection-contact {
@@ -206,7 +206,27 @@ i {
 .contact-phone a {
   color: #f2f2f2;
 }
-@media (max-width:1024px) {
+.service-img-layer1 {
+  background-image: url("/image/service-bg1.png");
+  width: 100%;
+  z-index: -1;
+}
+.service-img-layer2 {
+  background-image: url("/image/service-bg2.png");
+  width: 100%;
+  z-index: -1;
+}
+.service-img-layer3 {
+  background-image: url("/image/service-bg3.png");
+  width: 100%;
+  z-index: -1;
+}
+.services-text p {
+  margin-top: -250px;
+  color: #fff;
+  font-size: 36px;
+}
+@media (max-width: 1024px) {
   .customer-8 {
     left: 28%;
   }
@@ -238,7 +258,7 @@ i {
   .image {
     width: 6rem;
   }
-  .customer-6{
+  .customer-6 {
     bottom: 7rem;
   }
   .customer-8 {
@@ -264,35 +284,35 @@ i {
   .story-content {
     padding-bottom: 3.5rem;
   }
-  .customer-1{
+  .customer-1 {
     top: 11rem;
     left: 4%;
   }
-  .customer-2{
+  .customer-2 {
     top: 9rem;
     right: 40%;
   }
-  .customer-3{
+  .customer-3 {
     top: 1rem;
     left: 21%;
   }
-  .customer-4{
+  .customer-4 {
     top: 8rem;
     right: 5%;
   }
-  .customer-5{
+  .customer-5 {
     bottom: 6rem;
     left: 3%;
   }
-  .customer-6{
+  .customer-6 {
     bottom: 4rem;
     left: 48%;
   }
-  .customer-7{
+  .customer-7 {
     bottom: 10rem;
     right: 4%;
   }
-  .customer-8{
+  .customer-8 {
     left: 30%;
     bottom: 12rem;
   }
@@ -300,12 +320,12 @@ i {
     top: 6rem;
     left: 39%;
   }
-  .line-2{
+  .line-2 {
     bottom: 11rem;
     right: 20%;
   }
 }
-@media (max-width:380px) {
+@media (max-width: 380px) {
   .image {
     width: 5.5rem;
   }
@@ -313,7 +333,7 @@ i {
     bottom: 5.5rem;
     left: 2%;
   }
-  .customer-8{
+  .customer-8 {
     left: 24%;
   }
 }
@@ -325,14 +345,14 @@ i {
   .image {
     width: 5rem;
   }
-  .customer-2{
+  .customer-2 {
     top: 8rem;
   }
   .customer-3 {
     top: 2rem;
     left: 17%;
   }
-  .customer-5{
+  .customer-5 {
     bottom: 7.5rem;
     left: 2%;
   }
@@ -340,15 +360,15 @@ i {
     bottom: 5rem;
     left: 43%;
   }
-  .customer-7{
+  .customer-7 {
     bottom: 11rem;
     right: 4%;
   }
-  .customer-8{
+  .customer-8 {
     left: 29%;
     bottom: 13rem;
   }
-  .line-2{
+  .line-2 {
     bottom: 12rem;
     right: 8%;
   }
