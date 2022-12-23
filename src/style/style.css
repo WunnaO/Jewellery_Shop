@@ -188,6 +188,17 @@ i {
   right: 16%;
   z-index: -1;
 }
+.contact {
+  background-color: #261340;
+  color: #f2f2f2;
+}
+.collection-contact {
+  color: #f2f2f2;
+  text-decoration-line: none;
+}
+.collection-contact:hover {
+  color: #f2f2f2;
+}
 @media (max-width:1024px) {
   .customer-8 {
     left: 28%;
