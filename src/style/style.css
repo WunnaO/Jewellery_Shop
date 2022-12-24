@@ -226,6 +226,19 @@ i {
   color: #fff;
   font-size: 36px;
 }
+
+/* Contact */
+.form{
+  margin: 0 auto;
+}
+.form-control{
+  display: block;
+  width: 50%;
+  background-color: #361d5933;
+}
+.form-input{
+  width: 45rem;
+}
 @media (max-width: 1024px) {
   .customer-8 {
     left: 28%;
@@ -278,6 +291,9 @@ i {
   .line-2 img {
     width: 15rem;
   }
+  .form-input{
+    width: 40rem;
+  }
 }
 
 @media (max-width: 430px) {
@@ -323,6 +339,9 @@ i {
   .line-2 {
     bottom: 11rem;
     right: 20%;
+  }
+  .form-input{
+    width: 100%;
   }
 }
 @media (max-width: 380px) {
