@@ -207,17 +207,20 @@ i {
   color: #f2f2f2;
 }
 .service-img-layer1 {
-  background-image: url("./image/service-bg1.png");
+  background-image: linear-gradient(rgba(54, 29, 89, 0.5), rgba(0, 0, 0, 0.2)),
+    url("./image/service-bg1.png");
   width: 100%;
   z-index: -1;
 }
 .service-img-layer2 {
-  background-image: url("/image/service-bg2.png");
+  background-image: linear-gradient(rgba(54, 29, 89, 0.5), rgba(0, 0, 0, 0.2)),
+    url("/image/service-bg2.png");
   width: 100%;
   z-index: -1;
 }
 .service-img-layer3 {
-  background-image: url("/image/service-bg3.png");
+  background-image: linear-gradient(rgba(54, 29, 89, 0.5), rgba(0, 0, 0, 0.2)),
+    url("/image/service-bg3.png");
   width: 100%;
   z-index: -1;
 }
@@ -234,18 +237,21 @@ i {
   color: #fff;
   font-size: 36px;
 }
-
+.P-X {
+  padding-right: 3rem;
+  padding-left: 3rem;
+}
 /* Contact */
-.form{
+.form {
   margin: 0 auto;
 }
-.form-control{
+.form-control {
   display: block;
   width: 50%;
   background-color: #361d5933;
 }
-.form-input{
-  width: 45rem
+.form-input {
+  width: 45rem;
 }
 .design-text {
   color: #361d59;
@@ -259,10 +265,6 @@ i {
   z-index: 4;
   object-fit: cover;
   border-radius: 10%;
-}
-.design-img {
-  width: 26.125rem;
-  height: 20.3125rem;
 }
 .design-spot-1 {
   width: 14.875rem;
@@ -290,12 +292,16 @@ i {
     bottom: 1.5rem;
     left: 49%;
   }
-  .design-spot-1{
+  .design-spot-1 {
     right: 256px;
   }
-  .design-spot-2{
-    top: -57px;
-    left: 280px;
+  .design-spot-2 {
+    top: -30px;
+    left: 295px;
+  }
+
+  .fBL-w {
+    width: 25rem;
   }
 }
 @media (max-width: 770px) {
@@ -341,13 +347,49 @@ i {
   .line-2 img {
     width: 15rem;
   }
-
-  .design-spot-1{
-    
+  .service-img-layer1,
+  .service-img-layer2,
+  .service-img-layer3 {
+    height: 18.875rem;
+  }
+  .services-text p {
+    margin-top: -200px;
+    font-size: 24px;
+  }
+  .design-spot-1 {
+    right: 160px;
+    top: -15px;
+    width: 11.875rem;
+    height: 11.875rem;
+  }
+  .design-spot-2 {
+    top: -20px;
+    left: 145px;
+    width: 11.875rem;
+    height: 11.875rem;
+}
+  .new-design img {
+    width: 16rem;
+    height: 17rem;
   }
 
-  .form-input{
+  .form-input {
     width: 40rem;
+  }
+  .P-X {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .P-X{
+    padding-right: 3rem;
+    padding-left: 0rem;
+  }
+  .Ml {
+    margin-left: 10px;
+  }
+  .fBL-w {
+    width: 500px;
   }
 }
 
@@ -395,8 +437,35 @@ i {
     bottom: 11rem;
     right: 20%;
   }
-  .form-input{
+  .services-text p {
+    margin-top: -130px;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+  }
+  .service-img-layer1,
+  .service-img-layer2,
+  .service-img-layer3 {
+    height: 15.125rem;
+  }
+  .new-design img {
+    width: 19rem;
+    height: 18rem;
+  }
+  .design-spot-1 {
+    right: 215px;
+  }
+  .design-spot-2 {
+    left: 190px;
+  }
+  .desgin-px {
+    padding-right: 4rem !important;
+    padding-left: 0rem !important;
+  }
+  .form-input {
     width: 100%;
+  }
+  .fBL-w {
+    width: 400px;
   }
 }
 @media (max-width: 380px) {
@@ -409,6 +478,31 @@ i {
   }
   .customer-8 {
     left: 24%;
+  }
+  .new-design img {
+    width: 15rem;
+    height: 14rem;
+  }
+  .design-spot-1 {
+    right: 165px;
+    top: -10px;
+  }
+  .design-spot-2 {
+    left: 125px;
+    top: -20px;
+  }
+  .services-text p {
+    margin-top: -120px;
+    letter-spacing: 0.1rem;
+    font-size: 14px;
+  }
+  .service-img-layer1,
+  .service-img-layer2,
+  .service-img-layer3 {
+    height: 15.125rem;
+  }
+  .fBL-w {
+    width: 350px;
   }
 }
 
@@ -442,8 +536,42 @@ i {
     left: 29%;
     bottom: 13rem;
   }
+
   .line-2 {
     bottom: 12rem;
     right: 8%;
+  }
+
+  .service-img-layer1,
+  .service-img-layer2,
+  .service-img-layer3 {
+    height: 12.125rem;
+  }
+  .services-text p {
+    margin-top: -100px;
+  }
+  .P-X {
+    padding-right: 2rem;
+    padding-left: 1rem;
+  }
+  .new-design img {
+    width: 12rem;
+    height: 12rem;
+  }
+
+  .design-spot-2 {
+    left: 105px;
+    top: -15px;
+  }
+  .design-spot-1 {
+    right: 115px;
+    top: -10px;
+  }
+  .design-spot-2 {
+    left: 80px;
+    top: -15px;
+  }
+  .fBL-w {
+    width: 300px;
   }
 }
