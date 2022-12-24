@@ -16,6 +16,7 @@ i {
   font-size: 1.5rem !important;
 }
 
+
 .navbar {
   background-color: #261340;
 }
@@ -305,6 +306,9 @@ i {
   }
 }
 @media (max-width: 770px) {
+  .address-header{
+    width: 40% !important;
+  }
   .story-content {
     width: 100% !important;
     padding-bottom: 5.5rem;
@@ -394,6 +398,9 @@ i {
 }
 
 @media (max-width: 430px) {
+  .address-header {
+    width: 55% !important;
+}
   .story-content {
     padding-bottom: 3.5rem;
   }

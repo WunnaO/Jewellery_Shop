@@ -6,28 +6,28 @@ import "../style/style.css";
 
 <Layout title="Contact">
   <Map />
-  <section class="d-flex justify-content-center">
+  <section>
     <div class="container w-100">
-      <!-- <h2 class="text-center">Send Message</h2> -->
       <div class="d-flex justify-content-center form">
-        <form id="contact-form">
+        <form id="contact">
           <h2 class="text-center">Send Message</h2>
-          <!-- <div class="d-flex justify-content-center w-100"> -->
           <div class="mb-3">
             <label for="name">Name</label>
             <input
               type="text"
               name="name"
               placeholder="Mg Mg"
+              id="text"
               class="form-control p-3 mt-3 form-input"
             />
           </div>
           <div class="mt-3 mb-3">
             <label for="email">Email</label>
             <input
-              type="text"
+              type="email"
               name="email"
               placeholder="Email"
+              id="email"
               class="form-control p-3 mt-3 form-input"
             />
           </div>
@@ -37,6 +37,7 @@ import "../style/style.css";
               type="number"
               name="phone-number"
               placeholder="09*******"
+              id="phone"
               class="form-control p-3 mt-3 form-input"
             />
           </div>
@@ -44,7 +45,7 @@ import "../style/style.css";
             <label for="message">Message</label>
             <textarea
               name="message"
-              id=""
+              id="message"
               cols="30"
               rows="5"
               placeholder="Type Here"
@@ -61,3 +62,35 @@ import "../style/style.css";
     </div>
   </section>
 </Layout>
+<!-- <script>
+  const name = document.getElementById("form-name");
+  const email = document.getElementById("form-mail");
+  const message = document.getElementById("form-message");
+  const phone = document.getElementById("form-phone");
+  const frm = document.getElementById("contact");
+
+  const resetForm = () => {
+    name.value = "";
+    email.value = "";
+    message.value = "";
+    phone.value = "";
+  };
+
+  const submit = (e) => {
+    debugger;
+    e.preventDefault();
+    console.log(name.value, email.value, message.value, phone.value);
+
+    const temp_params = {
+      name: name.value,
+      email: email.value,
+      message: message.value,
+      phone: phone.value,
+    };
+
+    send(temp_params);
+    resetForm();
+  };
+
+  frm.addEventListener("submit", submit);
+</script> -->
