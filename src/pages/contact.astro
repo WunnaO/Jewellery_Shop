@@ -7,24 +7,24 @@ import Layout from "../layouts/Layout.astro";
   <Map />
   <section>
     <h1 class="text-center">Send Message</h1>
-    <form action="">
+    <form id="contact-form">
       <div>
         <label for="name">Name</label>
-        <input type="text" placeholder="Mg Mg"/>
+        <input type="text" placeholder="Mg Mg" class="form-control w-50 p-3"/>
       </div>
       <div>
         <label for="email">Email</label>
-        <input type="text" placeholder="Email"/>
+        <input type="text" placeholder="Email" class="form-control w-50 p-3"/>
       </div>
       <div>
         <label for="phone">Phone</label>
-        <input type="number" placeholder="09*******"/>
+        <input type="number" placeholder="09*******" class="form-control w-50 p-3"/>
       </div>
       <div>
         <label for="message">Message</label>
-        <textarea name="" id="" cols="30" rows="5" placeholder="Message"></textarea>
+        <textarea name="" id="" cols="30" rows="5" placeholder="Message" class="form-control w-50 p-3"></textarea>
       </div>
-      <button class="p-2">Send</button>
+      <button class="p-2" type="submit">Send</button>
     </form>
   </section>
 </Layout>
