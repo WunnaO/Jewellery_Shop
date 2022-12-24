@@ -234,6 +234,19 @@ i {
   color: #fff;
   font-size: 36px;
 }
+
+/* Contact */
+.form{
+  margin: 0 auto;
+}
+.form-control{
+  display: block;
+  width: 50%;
+  background-color: #361d5933;
+}
+.form-input{
+  width: 45rem
+}
 .design-text {
   color: #361d59;
 }
@@ -330,7 +343,11 @@ i {
   }
 
   .design-spot-1{
+    
+  }
 
+  .form-input{
+    width: 40rem;
   }
 }
 
@@ -377,6 +394,9 @@ i {
   .line-2 {
     bottom: 11rem;
     right: 20%;
+  }
+  .form-input{
+    width: 100%;
   }
 }
 @media (max-width: 380px) {
