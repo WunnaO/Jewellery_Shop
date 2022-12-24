@@ -207,7 +207,7 @@ i {
   color: #f2f2f2;
 }
 .service-img-layer1 {
-  background-image: url("/image/service-bg1.png");
+  background-image: url("./image/service-bg1.png");
   width: 100%;
   z-index: -1;
 }
@@ -220,6 +220,14 @@ i {
   background-image: url("/image/service-bg3.png");
   width: 100%;
   z-index: -1;
+}
+.service-img-layer1,
+.service-img-layer2,
+.service-img-layer3 {
+  height: 32.5625rem;
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .services-text p {
   margin-top: -250px;
@@ -237,7 +245,42 @@ i {
   background-color: #361d5933;
 }
 .form-input{
-  width: 45rem;
+  width: 45rem
+}
+.design-text {
+  color: #361d59;
+}
+.design-text p {
+  font-size: 1.125rem;
+}
+.new-design img {
+  width: 26.125rem;
+  height: 20.3125rem;
+  z-index: 4;
+  object-fit: cover;
+  border-radius: 10%;
+}
+.design-img {
+  width: 26.125rem;
+  height: 20.3125rem;
+}
+.design-spot-1 {
+  width: 14.875rem;
+  height: 14.875rem;
+  top: -37px;
+  right: 433px;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: rgba(54, 29, 89, 0.3);
+}
+.design-spot-2 {
+  width: 14.875rem;
+  height: 14.875rem;
+  top: -68px;
+  left: 285px;
+  border-radius: 50%;
+  z-index: -1;
+  background-color: rgba(54, 29, 89, 0.3);
 }
 @media (max-width: 1024px) {
   .customer-8 {
