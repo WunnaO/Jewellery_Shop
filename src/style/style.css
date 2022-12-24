@@ -15,8 +15,6 @@ body {
 i {
   font-size: 1.5rem !important;
 }
-
-
 .navbar {
   background-color: #261340;
 }
@@ -31,6 +29,14 @@ i {
 }
 .navbar-toggler {
   background-color: #f2f2f2;
+}
+.header {
+  margin-bottom: -4.6875rem;
+  background-color: transparent;
+}
+.shadow {
+  background: #361d59!important;
+  transition: 1s ease-in-out;
 }
 .story {
   background-image: url(/image/stroy-bg.jpg);
@@ -133,13 +139,11 @@ i {
 .images img {
   height: 17rem;
 }
-
 .footer-link {
   color: #361d59;
   text-decoration: none;
 }
 /* Our happy Customer */
-
 .image {
   width: 7rem;
 }

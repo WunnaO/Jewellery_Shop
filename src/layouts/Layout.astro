@@ -3,7 +3,7 @@ import Address from "../components/Address.astro";
 import Footer from "../components/Footer.astro";
 import FooterFBLink from "../components/FooterFBLink.astro";
 import Header from "../components/Header.astro";
-import '../style/style.css'
+import "../style/style.css";
 export interface Props {
   title: string;
 }
@@ -32,11 +32,15 @@ const { title } = Astro.props;
     <!-- <link rel="stylesheet" href="../style/style.css" /> -->
   </head>
   <body>
-    <Address />
-    <Header/>
-    <slot />
-    <FooterFBLink/>
-    <Footer/>
+    <section>
+      <main>
+        <Address />
+        <Header />
+        <slot />
+        <FooterFBLink />
+        <Footer />
+      </main>
+    </section>
   </body>
 </html>
 <style is:global>
