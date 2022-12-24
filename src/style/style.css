@@ -277,6 +277,13 @@ i {
     bottom: 1.5rem;
     left: 49%;
   }
+  .design-spot-1{
+    right: 256px;
+  }
+  .design-spot-2{
+    top: -57px;
+    left: 280px;
+  }
 }
 @media (max-width: 770px) {
   .story-content {
@@ -320,6 +327,10 @@ i {
   }
   .line-2 img {
     width: 15rem;
+  }
+
+  .design-spot-1{
+
   }
 }
 
