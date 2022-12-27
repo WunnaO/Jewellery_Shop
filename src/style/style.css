@@ -23,7 +23,11 @@ i {
   margin: 0 3.125rem;
 }
 
-.nav-item a:hover {
+.nav-link{
+  color: #f2f2f2 !important;
+}
+
+.head-item > a:hover {
   color: rgba(248, 209, 12, 0.886) !important;
   transition: 0.3s ease-in-out all;
 }
